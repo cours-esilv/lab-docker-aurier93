@@ -1,0 +1,2 @@
+docker start labdockeraurier
+docker run -d -p 8080:8080 --name frontend-container -e BACKEND_HOST=labdockeraurier -e BACKEND_PORT=5000 your-frontend-image:tag
