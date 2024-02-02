@@ -2,3 +2,9 @@ version: '3'
 services:
   back:
     image: aurier93/lab-docker-aurier93:latest
+    ports:
+      - "5000:5000"
+    environment:
+      - CURRENT_ENVIRONMENT=production
+    volumes:
+      - /path/on/host:/path/in/container
