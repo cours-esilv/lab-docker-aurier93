@@ -1,0 +1,2 @@
+docker exec -it labdockeraurier /bin/bash
+cat /etc/*release
