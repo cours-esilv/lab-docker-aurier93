@@ -1,0 +1,4 @@
+version: '3'
+services:
+  back:
+    image: aurier93/lab-docker-aurier93:latest
